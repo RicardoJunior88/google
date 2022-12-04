@@ -1,14 +1,20 @@
+body{
+    margin: 0;
+    font: .9em arial,sans-serif;
+}
 .cabecera{
-    
-   
     display: flex;
-   gap:15px;
-   height: 50px;
+   gap:1em;
+   height: 3.5em;
    align-items: center;
+   margin-right: 2em;
+}
+.sobre{
+    margin-left: 2em;
 }
 .dchaCabecera{
     
-    gap: 15px;    
+    gap: 1em;    
     display: flex;
     justify-content: flex-end;
     width: 80%;
@@ -16,11 +22,11 @@
     
 }
 .hijoCabecera{
-    min-width: 100px;
+    min-width: 6em;
 }
 .logo{
-    height: 230px;
-    width: 10pox;
+    height: 16em;
+    width: 21em;
     
 }
 .conlogo{
@@ -28,36 +34,56 @@
     justify-content: center;
     align-items: flex-start;
     /* background: red; */
-    height: 150px;
-    padding-bottom: 50px;
+    height: 12em;
+    padding-bottom: 3em;
     position: relative;
-    bottom: 70px;
+    bottom: 5em;
 }
 .conbarra{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
-    bottom: 80px;
+    bottom: 7em;
+    left: 25em;
+    border: 0.01em solid #888;
+    width: 40em;
+    height: 3em;
+    border-radius: 3em;
+    padding-right: 1em;
+    
 }
 .barra{
-    width: 700px;
+    width: 33em;
     align-items: flex-start;
-    border-radius: 20px;
-    height: 40px;
+    border: none;
+    outline: none;
     
 }
 .conbusqueda{
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 3em;
     align-items: flex-end;
-    gap: 20px;
+    gap: 2em;
     position: relative;
-    bottom: 80px;
+    bottom: 5em;
 }
+.icono{
+    width: 1.7em;
+    height: 1.7em;
+    margin: 0.5em;
+    position: relative;
+    top: .2em;
+    
+    }
+.lupa{
+    position: relative;
+    right: .5em;
+}
+
 .boton{
     border: none;
-    background: #fff;
+    background: #fff;padding: 1em;    
 }
 .boton:hover{
     cursor: pointer;
@@ -71,27 +97,28 @@
 .conidioma{
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 2em;
     position: relative;
-    bottom: 80px;
+    bottom: 5.3em;
 }
 .footerup{
-    background: #edf0f8;
-    font: 15px arial, sans-serif;
+    background: #e5e8eb;
+    color: blue;
+    font: 1em arial, sans-serif;
     width: 100%;
-    height: 40px;
-    padding-left: 25px;
+    height: 2em;
+    padding: 1em 0em 0em 1.5em;
     display: inline-block;
 }
 .footerdown{
-    background: #edf0f8;
+    background: #e5e8eb;
     border-top: solid rgb(215, 211, 211);
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
     row-gap: 10px;
     column-gap: 50px;
-    min-height: 75px;
+    height: 3em;
    
 }
 .fdi{
