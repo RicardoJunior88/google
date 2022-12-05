@@ -2,9 +2,10 @@ body{
     margin: 0;
     font: .9em arial,sans-serif;
     width: 100vw;
+    height: 100vh;
 }
 main{
-    height: 29.9em;
+    height: 29.4em;
 }
 
 .cabecera{
@@ -30,8 +31,10 @@ main{
     min-width: 6em;
 }
 .logo{
-    height: 16em;
-    width: 21em;
+    
+    width: 19em;
+    position: relative;
+    top: 47%;
     
 }
 .conlogo{
@@ -48,11 +51,11 @@ main{
     display: flex;
     justify-content: flex-end;
     position: relative;
-    bottom: 7em;
-    left: 25em;
-    border: 0.01em solid #888;
-    width: 40em;
-    height: 3em;
+    bottom: 21%;
+    left: 27.3%;
+    border: 0.01em solid rgb(200, 200, 200);
+    width: 44.2%;
+    height: 3.3em;
     border-radius: 3em;
     padding-right: 1em;
     
