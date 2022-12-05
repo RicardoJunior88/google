@@ -1,7 +1,12 @@
 body{
     margin: 0;
     font: .9em arial,sans-serif;
+    width: 100vw;
 }
+main{
+    height: 29.9em;
+}
+
 .cabecera{
     display: flex;
    gap:1em;
@@ -105,7 +110,7 @@ body{
     background: #e5e8eb;
     color: blue;
     font: 1em arial, sans-serif;
-    width: 100%;
+    width: 98.3vw;
     height: 2em;
     padding: 1em 0em 0em 1.5em;
     display: inline-block;
@@ -115,19 +120,36 @@ body{
     border-top: solid rgb(215, 211, 211);
     display: flex;
     flex-wrap: wrap-reverse;
-    justify-content: center;
-    row-gap: 10px;
-    column-gap: 50px;
-    height: 3em;
+    justify-content: space-between;
+    height: 3.5em;
+    row-gap: 1em;
+    column-gap: 3em;
+    width:100vw ;
+    
    
 }
 .fdi{
     display: flex;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 1.8em;
+    align-self: center;
+    margin-inline-start: 1.4em;
+    font-size: 0.9em;
+    
 }
 .fdd{
     display: flex;
     justify-content: space-between;
-    gap: 15px;
-}
+    align-self: center;
+    font-size: 0.9em;
+    gap: 1.8em;
+    margin-inline-end: 1.3em;
+    }
+    .fdc{
+        align-self: center;
+        font-size: 0.9em;
+    }
+    .hoja{
+        width: 1.2em;
+    }
+   
